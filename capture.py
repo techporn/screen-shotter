@@ -29,5 +29,5 @@ async def on_post(req, resp):
 def get_image(req, resp, *, id):
     resp.content = db.read_image(id)
 
-api.run()
+# api.run()
 
